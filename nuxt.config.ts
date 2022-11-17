@@ -9,5 +9,6 @@ export default defineNuxtConfig({
             { name: 'description', content: 'Detect diseases in tomato plants with your smartphone' }
           ],
         }
-      }
+      },
+      css: ["@/assets/css/tailwind.css"],
 })
