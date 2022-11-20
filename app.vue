@@ -1,23 +1,23 @@
 <template>
-  <div class="sm:px-24 py-10 px-10 bg-red-50 bg-opacity-90 overflow-x-hidden h-auto">
+  <div class="sm:px-24 py-10 px-10 bg-red-50 bg-opacity-90 overflow-x-hidden h-screen">
     <div class="flex flex-col">
       <img
-        class="w-48"
+        class="sm:w-48 w-32"
         src="https://res.cloudinary.com/developerlomo/image/upload/v1668624019/Tag_v78gje.png"
         alt="Acefood Logo"
       />
-      <div class="flex flex-row justify-between py-24">
+      <div class="flex flex-row justify-between sm:py-24 py-14">
         <div class="flex flex-col">
-          <h3 class="sm:text-8xl text-4xl text-left font-light">
+          <h3 class="sm:text-8xl text-3xl sm:text-left text-center font-light">
             An mobile application that detects diseases in tomato plants in realtime
           </h3>
-          <p class="font-extralight sm:text-2xl mt-6 text-cs text-left">
+          <p class="font-extralight sm:text-2xl text-sm mt-6 sm:text-left text-center">
             The Acefood X Flutter just shows that the application was developed with Flutter and Tensorflow
           </p>
-          <div class="flex flex-row gap-x-4 mt-8 items-center">
+          <div class="flex sm:flex-row flex-col gap-x-4 mt-8 items-center">
             <a href="">
               <img
-                class="w-40"
+                class="sm:w-40 w-32"
                 src="https://res.cloudinary.com/developerlomo/image/upload/v1668941304/google-play-badge_gvddtz.png"
               />
             </a>
@@ -27,8 +27,8 @@
           </div>
         </div>
       </div>
-      <footer class="mt-12">
-        <div class="flex sm:flex-row flex-col sm:justify-between sm:items-center sm:gap-y-0 gap-y-2">
+      <footer class="sm:mt-12 mt-8">
+        <div class="flex sm:flex-row flex-col sm:justify-between items-center sm:gap-y-0 gap-y-2">
           <p class="font-extralight text-xs sm:order-none order-1">© 2022 AjibsBaba - MIT License</p>
           <div class="flex flex-row gap-x-2">
             <a href="https://www.twitter.com/ajibs_baba" target="_blank">
