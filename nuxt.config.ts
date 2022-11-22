@@ -28,9 +28,7 @@ export default defineNuxtConfig({
         { name: 'twitter:site', content: '@ajibs_baba' },
         { name: 'author', content: 'Samuel Ajibade' },
       ],
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      ]
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
   },
 });

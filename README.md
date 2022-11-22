@@ -22,6 +22,6 @@ Start the development server on http://localhost:3000
 yarn dev -o
 ```
 
-## Deployment 
+## Deployment
 
 Access a deployed version of the website on [Acefood Website](https://www.acefood.ajibsbaba.com)
