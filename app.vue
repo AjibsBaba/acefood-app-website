@@ -8,13 +8,13 @@
           alt="Acefood Logo"
         />
       </div>
-      <div class="flex flex-row justify-between sm:py-24 py-20">
-        <div class="flex flex-col">
-          <h3 class="sm:text-8xl text-5xl sm:text-left text-center font-light">
-            A mobile application that detects diseases in tomato plants in realtime
+      <div class="flex sm:flex-row flex-col sm:gap-x-48 gap-y-12 sm:justify-between justify-center content-center items-center sm:py-32 py-20">
+        <div class="flex flex-col basis-1/8 sm:order-none order-2">
+          <h3 class="sm:text-6xl text-4xl sm:text-left sm:w-2/3 font-semibold tracking-tighter text-center font-light">
+            Do more with your smartphone Camera
           </h3>
-          <p class="font-extralight sm:text-2xl text-sm mt-6 sm:text-left text-center">
-            This application was developed with Flutter and Tensorflow and the dataset used was sourced from Kaggle
+          <p class="font-extralight mt-2.5 sm:text-left sm:w-2/3 text-center">
+            A mobile application that detects up to 10 classes of diseases in tomato plants powered by Tensorflow and Flutter.
           </p>
           <div class="flex sm:flex-row flex-col gap-x-4 sm:gap-y-0 gap-y-2 mt-8 items-center">
             <a href="">
@@ -24,10 +24,13 @@
                 alt="Image to download acefood app"
               />
             </a>
-            <a href="https://github.com/AjibsBaba/acefood">
-              <p class="text-sm font-extralight">View Codebase</p>
+            <a href="https://github.com/AjibsBaba/acefood-flutter">
+              <p class="text-sm font-extralight font-bold tracking-tighter">View Codebase</p>
             </a>
           </div>
+        </div>
+        <div class="flex flex-col basis-1/2 sm:order-none order-1">
+          <img class="sm:w-4/5 object-scale-down" src="~/assets/acefood_app_screenshot.png" alt="Screenshot of App">
         </div>
       </div>
       <footer class="sm:mt-12 mt-8">
